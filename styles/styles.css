@@ -9,9 +9,7 @@ body {
     width: 1200px;
     margin: 0 auto
 }
-.ul {
-    text-decoration: none;
-}
+
 .main-content {
     background-color: #f5f7fa;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -78,7 +76,8 @@ line-height: 24px;
 color: #595959;
 }
 .project-link{
-margin-left: 10px;
+    margin-left: 10px;
+    text-decoration: none;
 }
 
 .project-link:hover{
@@ -194,6 +193,7 @@ color: #000000;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
+    text-decoration: none;
 }
 .contact-link:hover{
     background: linear-gradient(45deg, cyan, blue);
