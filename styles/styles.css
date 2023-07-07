@@ -79,7 +79,9 @@ margin-left: 10px;
 }
 
 .project-link:hover{
-    color: #FB6D3A
+    background: linear-gradient(45deg, black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .project-bracket{
@@ -191,7 +193,9 @@ color: #000000;
     color: #ffffff;
 }
 .contact-link:hover{
-    color:  blue;
+    background: linear-gradient(45deg, cyan, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .tech-skills-list{
