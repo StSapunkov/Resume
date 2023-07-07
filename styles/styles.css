@@ -6,8 +6,11 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-        width: 1200px;
+    width: 1200px;
     margin: 0 auto
+}
+.ul {
+    text-decoration: none;
 }
 .main-content {
     background-color: #f5f7fa;
@@ -134,9 +137,9 @@ font-size: 14px;
 line-height: 24px;
 color: #595959;
 }
-.education{
+/* .education{
     
-}
+} */
 .management{
 font-style: normal;
 font-weight: 700;
